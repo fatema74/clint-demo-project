@@ -37,6 +37,13 @@ text-decoration-skip-ink: none;
 }
 .it-industry-area{
   gap: 74px;
+  align-items: center;
+  justify-content: center;
+}
+.it-industry-img img{
+  max-width: 500px;
+  margin: 0 auto;
+  vertical-align: auto;
 }
 .it-industry-contant{
   max-width: 648px;

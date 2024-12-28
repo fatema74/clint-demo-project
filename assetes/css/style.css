@@ -82,6 +82,10 @@ h6 {
   align-items: center;
   gap: 15px;
 }
+.contact-img img{
+  width: 30px;
+  height: 30px;
+}
 
 
 /* banner area css */
@@ -176,7 +180,10 @@ margin-top: 24px;
 
 .clients-images {
   display: flex;
-  gap: 64px;
+  align-items: center;
+  animation: scrol 50s linear infinite;
+  width: calc(250px * 18);
+  gap: 30px;
 }
 
 /* we-do-area css */
@@ -307,10 +314,21 @@ margin-top: 24px;
 .partners-section {
   padding: 100px 0;
 }
+/* slider */
+@keyframes scrol{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 9));
+  }
+}
 
 .partners-card {
   align-items: center;
-  gap: 62px;
+  justify-content: space-between;
+  animation: scrol 50s linear infinite;
+  width: calc(250px * 18);
 }
 
 /* support-section css */
@@ -339,11 +357,13 @@ margin-top: 24px;
 }
 .our-custom-accordion-signle {
   width: 50%;
+  /* transition: 0.5s all; */
   /* margin: auto; */
 }
 
 .our-custom-accordion .accordion-item {
   border: 0;
+  transition: 0.5s all;
 }
 
 .our-custom-accordion .accordion-header a {
@@ -361,6 +381,7 @@ margin-top: 24px;
   display: block;
   position: relative;
   border-radius: 12px;
+  transition: 0.5s all;
 }
 
 .our-custom-accordion .accordion-header a i {
@@ -371,6 +392,7 @@ margin-top: 24px;
   transform: translateY(-50%);
   color: var(--text-color);
   font-size: 22.5px;
+  /* transition: 0.5s all; */
 }
 
 .our-custom-accordion .accordion-header a.collapsed i {
@@ -613,6 +635,9 @@ cursor: pointer;
   margin-top: 20px;
   cursor: pointer;
 }
+
+
+
 
 
 

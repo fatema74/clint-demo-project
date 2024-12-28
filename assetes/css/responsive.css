@@ -17,9 +17,7 @@
 .footer-midile .it-industry-area{
   flex-wrap: wrap;
 }
-.it-industry-area{
-  flex-wrap: wrap;
-}
+
 
 }
 
@@ -48,12 +46,16 @@ flex-direction: column;
 .choose-us-area img{
   order: 1;
 }
+.it-industry-area{
+  flex-wrap: wrap;
+}
 }
 
 @media (max-width: 1080px){
   .we-serve{
 flex-wrap: wrap;
 }
+
 .we-do{
   flex-wrap: wrap;
 }

@@ -13,17 +13,14 @@
   background: linear-gradient(261.5deg, #0c083f -9.2%, #4a43aa 107.31%);
   width: 72px;
   height: 72px;
-  padding: 10px;
+  padding: 0 20px;
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 43.2px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  /* line-height: 72px; */
   color: #ffffff;
 }
 .client-content {
