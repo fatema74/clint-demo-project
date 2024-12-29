@@ -49,7 +49,6 @@ flex-direction: column;
 .it-industry-area{
   flex-wrap: wrap;
 }
-
 }
 
 @media (max-width: 1080px){
