@@ -49,6 +49,7 @@ flex-direction: column;
 .it-industry-area{
   flex-wrap: wrap;
 }
+
 }
 
 @media (max-width: 1080px){
@@ -213,6 +214,9 @@ font-size: 24px;
 }
 .choose-us-contant h4{
 font-size: 28px;
+}
+.it-industry-img img{
+  max-width: 300px;
 }
 
 }
